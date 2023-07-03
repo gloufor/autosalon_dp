@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "196019349577",
+    "project_id": "user-54bcf",
+    "storage_bucket": "user-54bcf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:196019349577:android:d0c9912cf88df23bd27798",
+        "android_client_info": {
+          "package_name": "com.example.autosalon_bashkirov"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "196019349577-p7q56o6sc0ijm00s1q5l7qerlqqvct90.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUwol0yElUEqX0QDcjTdqXmUc9kUXCnxw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "196019349577-p7q56o6sc0ijm00s1q5l7qerlqqvct90.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

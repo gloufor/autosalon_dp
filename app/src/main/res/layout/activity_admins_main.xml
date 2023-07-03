@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admins_main"
+    android:padding="15dp"
+    android:orientation="vertical"
+    android:id="@+id/activity_list_tasks2">
+
+
+    <ImageView
+        android:id="@+id/iv_back_button15"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="3dp"
+        android:src="@drawable/back_vector"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dannye_clienta"
+        android:layout_marginTop="25dp"
+        android:textSize="20sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_dannye1"
+        android:hint="@string/edithelpone"
+        android:minHeight="48dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/usluga_i_data"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_dannye2"
+        android:hint="@string/egithelptwo"
+        android:minHeight="48dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btn_submit"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#000000"
+        android:text="@string/buton_add"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/btn_adm2"
+            android:layout_marginTop="95dp"
+            android:backgroundTint="#FFFFFF"
+            android:text="@string/zayyavvvki"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
